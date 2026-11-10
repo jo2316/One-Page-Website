@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pet Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="#home">The Pet Shop</a>
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#pets">Our Pets</a>
+            <a href="#supplies">Pet Supplies</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">A happy place for pets and people</p>
+                <h1>Everything your best friend needs.</h1>
+                <p>Find friendly companions, everyday essentials, and helpful advice
+                   to give your pet a happy and healthy life.</p>
+                <a class="button" href="#supplies">Explore our shop</a>
+            </div>
+        </section>
+
+        <section class="section" id="pets">
+            <div class="section-heading">
+                <p class="eyebrow">Meet your new best friend</p>
+                <h2>Pets we love</h2>
+                <p>Every pet deserves a caring home, plenty of attention, and lots of love.</p>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=85"
+                         alt="Happy golden dog sitting outdoors">
+                    <div class="card-content">
+                        <h3>Dogs</h3>
+                        <p>Loyal companions who make every day brighter.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-151
+_upload-placeholder"
+                         alt="Curious pet cat">
+                    <div class="card-content">
+                        <h3>Cats</h3>
+                        <p>Playful, curious friends with lots of personality.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=900&q=85"
+                         alt="Small rabbit resting">
+                    <div class="card-content">
+                        <h3>Small pets</h3>
+                        <p>Little companions with big personalities.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section supplies" id="supplies">
+            <div class="section-heading">
+                <p class="eyebrow">Good care starts here</p>
+                <h2>Shop pet essentials</h2>
+                <p>Explore a few of the everyday items that help pets feel their best.</p>
+            </div>
+            <div class="product-grid">
+                <article class="product">
+                    <img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=85"
+                         alt="Pet food in a bowl">
+                    <h3>Healthy Food</h3>
+                    <p>Nutritious meals for happy, energetic pets.</p>
+                </article>
+                <article class="product">
+                    <img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=900&q=85"
+                         alt="Dog playing with a toy">
+                    <h3>Toys & Play</h3>
+                    <p>Fun toys to keep curious paws and minds busy.</p>
+                </article>
+                <article class="product">
+                    <img src="https://images.unsplash.com/photo-1601758123927-196b4b0f5b3b?auto=format&fit=crop&w=900&q=85"
+                         alt="Dog being groomed">
+                    <h3>Grooming</h3>
+                    <p>Care products to help pets look and feel great.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div>
+                <p class="eyebrow">A little about us</p>
+                <h2>Pets are family.</h2>
+                <p>At The Pet Shop, we believe every animal deserves kindness,
+                   comfort, and responsible care. Our goal is to help pet owners
+                   find useful products and information for every stage of a pet's life.</p>
+                <p>Before welcoming a pet into your home, make sure you can provide
+                   the time, space, attention, and veterinary care it needs.</p>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">We would love to hear from you</p>
+                <h2>Contact us</h2>
+                <p>Have a question? Send us a message using the form below.</p>
+            </div>
+            <form action="#" method="post">
+                <label for="customer-name">Your name</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+
+                <label for="customer-email">Email address</label>
+                <input type="email" id="customer-email" name="customer-email" required>
+
+                <label for="customer-message">Message</label>
+                <textarea id="customer-message" name="customer-message" rows="5" required></textarea>
+
+                <button class="button" type="submit">Send message</button>
+            </form>
+            <p class="form-note">This sample form is for demonstration and is not connected to a message service.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 The Pet Shop. Made with care for pets and their people.</p>
+        <a href="#home">Back to top</a>
+    </footer>
+</body>
+</html>
